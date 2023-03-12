@@ -8,8 +8,8 @@ on:
 env:
   PROJECT_NAME: snsLogin-project
   BUCKET_NAME: temp-cicd-deploy
-  CODE_DEPLOY_APP_NAME: cicdapp
-  DEPLOYMENT_GROUP_NAME: cicdapp_deploy
+  CODE_DEPLOY_APP_NAME: spring-cicd
+  DEPLOYMENT_GROUP_NAME: spring-cicd-group
 
 jobs:
   build:
